@@ -1,7 +1,7 @@
 ## Getting started
 1. Clone the repo
     ```
-    $ git clone https://github.com/ranjan-purbey/minimal-react-boilerplate
+    $ git clone https://github.com/dferrreira/minicart-test
     ```
 2. Install the dependencies
     ```
