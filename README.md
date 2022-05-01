@@ -20,3 +20,4 @@
     ```
     $ npm run build
     ```
+4. Node version indicated **14.15.1**
