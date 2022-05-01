@@ -36,13 +36,17 @@ export const FooterFreeShipping = styled.div`
     background-color: #c7ffa6;
     border-radius: ${rem(16)};
     padding: ${rem(5)} ${rem(16)};
-    margin: ${rem(16)} auto;
+    margin: ${rem(16)} auto 0;
 `;
 
 export const FooterFreeShippingMessage = styled.span`
     color: #217c21;
     font-size: ${rem(16)};
     font-weight: 600;
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
 `;
 
 export const FooterButtonContainer = styled.div`

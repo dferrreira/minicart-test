@@ -30,7 +30,7 @@ const Footer = (props) => {
             )}
         </S.FooterContainer>
         <S.FooterButtonContainer>
-            <Button type="primary" blue center isDisabled="false" title="Finalizar compra">Finalizar compra</Button>
+            <Button type="primary" blue center isDisabled={false} title="Finalizar compra">Finalizar compra</Button>
         </S.FooterButtonContainer>
         </S.FooterWrapper>
     );

@@ -7,6 +7,7 @@ export const MinicartWrapper = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-height: 100vh;
     background-color: #d1d8e5;
     font-family: 'Poppins', sans-serif;
     padding: ${rem(20)} 0;

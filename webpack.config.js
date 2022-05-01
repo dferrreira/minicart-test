@@ -6,7 +6,15 @@ module.exports = {
     rules: [
       {
         test: /\.jsx?$/,
-        use: ["babel-loader"],
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ['@babel/preset-env'],
+            "plugins": [
+              ["@babel/transform-runtime"]
+            ]
+          }
+        },
         exclude: path.join(__dirname, 'node_modules')
       },
       {
