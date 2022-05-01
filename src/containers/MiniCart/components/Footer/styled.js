@@ -43,10 +43,7 @@ export const FooterFreeShippingMessage = styled.span`
     color: #217c21;
     font-size: ${rem(16)};
     font-weight: 600;
-
-    @media (max-width: 768px) {
-        text-align: center;
-    }
+    text-align: center;
 `;
 
 export const FooterButtonContainer = styled.div`
